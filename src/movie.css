@@ -1,0 +1,153 @@
+﻿/* Movie App Custom Styles */
+body {
+  background: #f0f0f0;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  background: #343a40;
+  padding: 1rem 2rem;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  color: #ccc !important;
+}
+
+.search-bar {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.search-bar .form-control {
+  background: #fff;
+  border: 1px solid #ced4da;
+  color: #333;
+  border-radius: 25px 0 0 25px;
+}
+
+.search-bar .btn {
+  background: #dc3545;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  color: #fff;
+}
+
+.search-bar .btn:hover {
+  background: #c82333;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 1rem;
+  color: #fff;
+}
+
+.movie-card {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-card .card-body {
+  padding: 1rem;
+}
+
+.movie-card .btn {
+  background: #dc3545;
+  border: none;
+  color: #fff;
+}
+
+.movie-card .btn:hover {
+  background: #c82333;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: #333;
+  text-shadow: none;
+}
+
+.footer {
+  background: #343a40;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.footer a {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.movie-page {
+  background: #f0f0f0 !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+  .movie-card img {
+    height: 200px;
+  }
+  .search-bar {
+    max-width: 100%;
+  }
+}
+.btn-watch-movie {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+.btn-watch-movie:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+.btn-info {
+  background-color: #17a2b8; /* Màu xanh lam nhạt */
+  border-color: #17a2b8;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
